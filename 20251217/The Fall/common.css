@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+*::selection {
+    background: ;
+}
+body {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    background-color: rgb(128, 4, 4);
+    box-shadow: 0px 0px 6px rgba(0,0,0, 0.1);
+}
+
+header h1 {
+    color: red;
+    font-size: 28px;
+}
+
+header h1 span {
+    color: white
+}
