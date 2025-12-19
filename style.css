@@ -1,0 +1,61 @@
+.hero {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  padding: 4rem;
+  background: #0f0f0f;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-projects {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  opacity: 0.35;
+}
+
+.project-card {
+  width: 220px;
+  height: 140px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  opacity: 1;
+  filter: grayscale(0);
+  transform: translateY(-6px);
+}
+
+.project-title {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
